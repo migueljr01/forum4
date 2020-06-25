@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sistema Datacenter - CLUSTER FLN</title >
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" sizes="180x180" href="img/favicon.ico" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel = "stylesheet" type = "text/css" href = "css/menu.css" />
+<link rel = "stylesheet" type = "text/css" href = "css/site.css" />
+<script type="text/javascript">
+    var browser=window.innerHeight;
+    var scroll=browser-180;
+    function id( el ){
+      return document.getElementById( el );
+    }
+    window.onload = function(){
+      id('scroll').style.height = scroll+'px';
+    }
+</script>
+</head>
+
+<body >
+<div id="cabec">
+  <div id="cabecalho">
+    <img src="img/logo.png" width="109px" height="39px">
+  </div>
+  <div id="cabecalho2">
+    <B>SISTEMA DATACENTER</B>
+  </div>
+</div>
+<div id="infos">
+  <div id="infos3" >
+    Florianópolis, 25 de Junho de 2020 as 04:37  </div>
+  <div id="infos2">
+   Boa Madrugada , Sr(a) Convidado  </div>
+  <div id="infos1">
+  <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>  </div>  
+</div>
+<div class="navbar">
+    <a href="/" title="">Inicio</a>
+<div class="subnav"><button class="subnavbtn">Atendimento<i class="fa fa-caret-down"></i></button><div class="subnav-content"><a href="atendimento/incluir" title="Inclui Atendimento">Incluir</a>
+<div class="dropdown"><button class="dropbtn">Consultas<i class="fa fa-caret-down"></i></button><div class="dropdown-content"><a href="/atendimento/listar/contrato" title="Consulta por contrato">Contrato</a>
+<a href="/atendimento/consulta/dia" title="Consulta por Dia">Dia</a>
+<a href="/atendimento/consulta/periodo" title="Consulta por periodo">Periodo</a>
+</div></div><div class="dropdown"><button class="dropbtn">Relatório<i class="fa fa-caret-down"></i></button><div class="dropdown-content"><a href="/relatorio/listar/contrato" title="Relatório por contrato">Contrato</a>
+<a href="/relatorio/consulta/dia" title="Relatório por Dia">Dia</a>
+<a href="/relatorio/consulta/periodo" title="Relatório por periodo">Periodo</a>
+</div></div></div></div><div class="subnav"><button class="subnavbtn">Serviços<i class="fa fa-caret-down"></i></button><div class="subnav-content"><div class="dropdown"><button class="dropbtn">BT<i class="fa fa-caret-down"></i></button><div class="dropdown-content"><a href="/bt/alterar" title="Alterar">Alterar</a>
+<a href="/bt/incluir" title="Incluir Boletim">Incluir</a>
+<a href="/bt/pesquisa/periodo" title="Consulta por periodo">Pesquisa periodo</a>
+<a href="/bt/pesquisa/titulo" title="Consulta por periodo">Pesquisa titulo</a>
+</div></div><div class="dropdown"><button class="dropbtn">Diário de bordo<i class="fa fa-caret-down"></i></button><div class="dropdown-content"><a href="/diariobordo/alterar" title="Alterar o Diário de bordo">Alterar</a>
+<a href="/diariobordo/incluir" title="Incluir no Diário de bordo">Incluir</a>
+<a href="/diariobordo/pesquisa/periodo" title="Consulta por periodo">Pesquisa periodo</a>
+<a href="/diariobordo/pesquisa" title="Relatório por periodo">Relatório</a>
+</div></div><div class="dropdown"><button class="dropbtn">Manobra<i class="fa fa-caret-down"></i></button><div class="dropdown-content"><a href="/manobra/alterar" title="Alterar Manobra">Alterar</a>
+<a href="/manobra/incluir" title="Incluir Manobra">Incluir</a>
+<a href="/manobra/pesquisa/periodo" title="Consulta por periodo">Pesquisa periodo</a>
+<a href="/manobra/pesquisa/ticket" title="Consulta por Ticket">Pesquisa ticket</a>
+<a href="/manobra/relatorio" title="Consulta por periodo">Relatório</a>
+</div></div><div class="dropdown"><button class="dropbtn">Rede Externa<i class="fa fa-caret-down"></i></button><div class="dropdown-content"><a href="/redeext/alterar" title="Alterar ">Alterar</a>
+<a href="/redeext/incluir" title="Incluir ">Incluir</a>
+<a href="/redeext/pesquisa" title="Consulta por periodo">Pesquisa periodo</a>
+<a href="/redeext/relatorio" title="Consulta por periodo">Relatório</a>
+</div></div></div></div><div class="subnav"><button class="subnavbtn">Equipamentos<i class="fa fa-caret-down"></i></button><div class="subnav-content"><div class="dropdown"><button class="dropbtn">Ativos<i class="fa fa-caret-down"></i></button><div class="dropdown-content"><a href="/ativos/alterar" title="Alterar">Alterar</a>
+<a href="/ativos/incluir" title="Incluir">Incluir</a>
+<a href="/ativos/pesquisa" title="Consulta por periodo">Listar</a>
+</div></div><div class="dropdown"><button class="dropbtn">Terminais<i class="fa fa-caret-down"></i></button><div class="dropdown-content"><a href="/manobra/alterar" title="Alterar ">Alterar</a>
+<a href="/manobra/incluir" title="Incluir ">Incluir</a>
+<a href="/manobra/pesquisa/periodo" title="Consulta por periodo">Pesquisa</a>
+</div></div></div></div><div class="subnav"><button class="subnavbtn">Cadastros<i class="fa fa-caret-down"></i></button><div class="subnav-content"><div class="dropdown"><button class="dropbtn">Cidade<i class="fa fa-caret-down"></i></button><div class="dropdown-content"><a href="/cidade/incluir" title="Incluir">Incluir</a>
+<a href="/cidade/pesquisa" title="Consulta">Listar</a>
+</div></div><div class="dropdown"><button class="dropbtn">Cluster<i class="fa fa-caret-down"></i></button><div class="dropdown-content"><a href="/cluster/incluir" title="Incluir ">Incluir</a>
+<a href="/cluster/listar" title="Listar">Listar</a>
+</div></div><div class="dropdown"><button class="dropbtn">Hub<i class="fa fa-caret-down"></i></button><div class="dropdown-content"><a href="/cluster/incluir" title="Incluir ">Incluir</a>
+<a href="/cluster/listar" title="Listar">Listar</a>
+</div></div><div class="dropdown"><button class="dropbtn">Empresas<i class="fa fa-caret-down"></i></button><div class="dropdown-content"><a href="/empresas/incluir" title="Incluir ">Incluir</a>
+<a href="/empresas/listar" title="Listar">Listar</a>
+</div></div><div class="dropdown"><button class="dropbtn">Técnicos<i class="fa fa-caret-down"></i></button><div class="dropdown-content"><a href="/tecnicos/incluir" title="">Incluir</a>
+<a href="/tecnicos/pesquisar/cidade" title="">Pesquisar por Cidade</a>
+<a href="/tecnicos/pesquisar/empresa" title="">Pesquisar por Empresa</a>
+<a href="/tecnicos/pesquisar/login" title="">Pesquisar por Login</a>
+</div></div></div></div><div class="subnav"><button class="subnavbtn">Administração<i class="fa fa-caret-down"></i></button><div class="subnav-content"><div class="dropdown"><button class="dropbtn">produto<i class="fa fa-caret-down"></i></button><div class="dropdown-content"><a href="/produto/incluir" title="Incluir ">Incluir</a>
+<a href="/produto/pesquisa" title="Consulta">Pesquisa</a>
+</div></div><div class="dropdown"><button class="dropbtn">fato<i class="fa fa-caret-down"></i></button><div class="dropdown-content"><a href="/fato/incluir" title="Incluir ">Incluir</a>
+<a href="/fato/pesquisa" title="Consulta">Pesquisa</a>
+<a href="/fato/vincular" title="Vincula ao produto">Vincular</a>
+</div></div><div class="dropdown"><button class="dropbtn">causa<i class="fa fa-caret-down"></i></button><div class="dropdown-content"><a href="/causa/incluir" title="Incluir ">Incluir</a>
+<a href="/causa/pesquisa" title="Consulta">Pesquisa</a>
+<a href="/causa/vincular" title="Vincula ao Produto / Fato">Vincular</a>
+</div></div><div class="dropdown"><button class="dropbtn">acao<i class="fa fa-caret-down"></i></button><div class="dropdown-content"><a href="/acao/incluir" title="Incluir ">Incluir</a>
+<a href="/acao/pesquisa" title="Consulta">Pesquisa</a>
+<a href="/acao/vincular" title="Vincula ao Vincula ao Produto / Fato / Causa">Vincular</a>
+</div></div></div></div><div class="subnav"><button class="subnavbtn">Agenda Telefonica<i class="fa fa-caret-down"></i></button><div class="subnav-content"><a href="/telefone/incluir" title="">Incluir</a>
+<a href="/telefone/pesquisa" title=" ">Pesquisa</a>
+</div></div><div class="subnav"><button class="subnavbtn">Usuários<i class="fa fa-caret-down"></i></button><div class="subnav-content"><a href="/usuario/incluir" title="">Incluir</a>
+<a href="/usuario/pesquisa" title=" ">Pesquisa</a>
+<a href="/usuario/senha" title="">Troca de senha</a>
+</div></div><div class="subnav"><button class="subnavbtn">Desenvolvedor<i class="fa fa-caret-down"></i></button><div class="subnav-content"></div></div>  
+</div>
+<div id="scroll">
+      <div id="conteudo">
+        <div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/login/valida" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img/img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Login</b></label>
+      <input type="text" placeholder="Entre com seu Login" name="uname" required>
+
+      <label for="psw"><b>Senha</b></label>
+      <input type="password" placeholder="Enter senha" name="psw" required>
+        
+      <button type="submit">Login</button>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+        <!-- ativando scroll -->
+        Role para baixo !
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        Você chegou ao seu destino, pode voltar!
+      </div>
+  </div>
+</div>
+<div id="rodape">
+    <a href="/index/versoes" >Os direitos cedidos a Claro SA 2015 - 2020 - Cluster Santa Catarina - <img src="img/216.png" /> - Desenvolvedores </a>
+</div>
+</body>
+</html>
